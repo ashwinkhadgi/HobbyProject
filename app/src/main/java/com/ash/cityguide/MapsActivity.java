@@ -52,6 +52,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
     private static final int REQUEST_CHECK_SETTINGS = 2;
     private static final int PLACE_PICKER_REQUEST = 3;
+    private static final int PLACE_PICKER_RESULT = 4;
 
     private GoogleMap mMap;
     private GoogleApiClient mGoogleApiClient;
